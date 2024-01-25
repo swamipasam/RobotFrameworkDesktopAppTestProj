@@ -20,12 +20,12 @@ Test Paint Application - Import Image
     Export Image    ${CapturedImageFromPaintAppPath}    ${CapturedImageName}    png
     # Pass the test cases if the images are identical
     Compare Images And Generate Report    ${IMAGE_PATH_1}    ${CapturedImageFromPaintAppPath}    Images are identical
-    Close Paint Application    ${CapturedImageName}
+    #Close Paint Application    ${CapturedImageName}
 
 Test Paint Application - Export Image
     Open Paint Application    ${PAINT_EXECUTABLE}
     Import Image    ${IMAGE_PATH_1}
     Export Image    ${IMAGE_PATH_2}    ${ExportedImageName}    jpg
-    Close Paint Application    ${ExportedImageName}
+    #Close Paint Application    ${ExportedImageName}
     # Pass the test cases if the images are different, and it comaparison fails, this test case is treated as success
     Compare Images And Generate Report    ${IMAGE_PATH_1}    ${IMAGE_PATH_2}    Images are different

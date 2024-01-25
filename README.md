@@ -10,15 +10,20 @@ Sample Desktop App testing using Robot Framework. Here Windows Paint application
 ## Steps to use this project
 - Download the project from github:: git clone https://github.com/swamipasam/RobotFrameworkDesktopAppTestProj.git
 - Move to the project directory:: cd RobotFrameworkDesktopAppTestProj
-- run setupVirtualEnv.bat file:: setupVirtualEnv.bat
-![Alt text](image.png)
+- run setupVirtualEnv.bat file:: .\setupVirtualEnv.bat
 
-- run runTest.bat file:: runTest.bat
-![Alt text](image-1.png)
 
-- As the command window will close aftre test run, we can't see logs. The commands in those bat files can be run from jenkins as well, which will give jenkin console logs to see, but in current case, as we have executed from command line, the commanline will get close after successful test execution
+- run runTest.bat file:: .\runTest.bat
 
-- See the test report in the project directory, by double clicking on report.html. This will be open in a default browser
+
+- As the command window will close after test run, we can't see logs. The commands in those bat files can be run from jenkins as well, which will give jenkin console logs to see, but in current case, as we have executed from command line, the commanline will get close after successful test execution
+
+- See the test report in the project directory, by double clicking on report.html. This will be open in a default browser if its not open already
+
+- Optional Step: Once the report.html was seen, if you wanted to close all paint windows automaticalls instead of manually, run the bat file :: .\closeAllWindows.bat
+Note: As of now this close command close all windows and terminates program not in an intended way. Need to log issue on this.
+
+
 
 
 
