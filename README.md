@@ -7,7 +7,23 @@ Sample Desktop App testing using Robot Framework. Here Windows Paint application
 - Python 3.10.12 and above should be installed and 'pip' 23.2.1 and above should be installed
 - git bash/git is installed
 
-## Steps to use this project
+## Usecase of this project
+Test Script1:
+- Start any Image Editing application for desktop that can import & export images with different formats (ex. Paint)
+- Import Image: IMAGE_1
+- Verify with image comparison that the imported Image looks correctly in the Image Editor
+
+
+Test Script2:
+- Repeat the import image part from Testcase1
+- Export the image in in different format (Imported image is png and exported image is jpg format)
+- Verify that the exported image exists
+- Verify with image comparison whether the exported image is equal to IMAGE_2 (to be failed)
+- Generate an error report 
+
+Note: Main Test Script Path: .\tests\tasksWithFunctions.robot which contains these two testcases
+
+## Steps to run this project
 - Download the project from github:: git clone https://github.com/swamipasam/RobotFrameworkDesktopAppTestProj.git
 - Move to the project directory:: cd RobotFrameworkDesktopAppTestProj
 - run setupVirtualEnv.bat file:: .\setupVirtualEnv.bat
