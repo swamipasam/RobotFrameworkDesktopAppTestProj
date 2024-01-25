@@ -1,0 +1,3 @@
+#requires Python 3.10.12 and 'pip' 23.2.1 at minimum before running the below requirements
+#robotframework == 7.0
+rpaframework-windows == 7.5.0
