@@ -3,7 +3,7 @@ Sample Desktop App testing using Robot Framework. Here Windows Paint application
 
 
 ## Pre conditions
-- Make sure we are running the script in windows os and with os system lanague set to German. Windows system has by default mapaint.exe installed
+- Make sure we are running the script in windows 11 os and with os system lanague set to German. Windows system has by default mapaint.exe installed, in this project script are created with Paint 11.2311.29.0. This script can be further developed for handling multiple od and languages (this might dependent on AUT compatibility and its version as well). But for now it is created only on this perticular pre-condition
 - Python 3.10.12 and above should be installed and 'pip' 23.2.1 and above should be installed
 - git bash/git is installed
 
@@ -41,7 +41,11 @@ Note: As of now this close command close all windows and terminates program not 
 
 
 
-
+## Further Possible Improvements
+- Multiple language support, and multi OS support (this might dependent on AUT compatibility and its version as well)
+- Enhhacing Framework for multiple paint version and language handling (Based on paint App version the menu options also might vary and hence script as of its not compatible with multiple versions of Paint AUT)
+- Enhhacing Framework for Image comparision logic and any other type of image validation in paint application with visual comaparisons 
+- Enhhacing Framework for Jenkins integration, docker image support etc
 
 
 
