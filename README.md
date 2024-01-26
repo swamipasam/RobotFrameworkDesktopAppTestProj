@@ -25,11 +25,13 @@ Note: Main Test Script Path: .\tests\tasksWithFunctions.robot which contains the
 
 ## Steps to run this project
 - Download the project from github:: git clone https://github.com/swamipasam/RobotFrameworkDesktopAppTestProj.git
+- Open the project in Visual Studio IDE with plug ins "Robocorp Code, Robot Framework Language Server" installed in Visual studio. This will auto dowload the python dependencies using conda.yaml file
+(or) 
 - Move to the project directory:: cd RobotFrameworkDesktopAppTestProj
 - run setupVirtualEnv.bat file:: .\setupVirtualEnv.bat
 
-
-- run runTest.bat file:: .\runTest.bat
+and then
+- run Testscripts using runTest.bat file:: .\runTest.bat
 
 
 - As the command window will close after test run, we can't see logs. The commands in those bat files can be run from jenkins as well, which will give jenkin console logs to see, but in current case, as we have executed from command line, the commanline will get close after successful test execution
@@ -61,4 +63,4 @@ This is the simplest template to start from.
 - You can configure dependencies in `conda.yaml`.
 
 
-Note: Visual Studio IDE was used with plug ins "Robocorp Code, Robot Framework Language Server" for script creation and tested only on Windows 11 OS
+Note: Visual Studio IDE was used with plug ins "Robocorp Code, Robot Framework Language Server" 
