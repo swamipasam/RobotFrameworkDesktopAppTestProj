@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 
+
 def compare_images(file1, file2):
     try:
         # Open the images using Pillow

@@ -1,3 +1,7 @@
 #requires Python 3.10.12 and 'pip' 23.2.1 at minimum before running the below requirements
 #robotframework == 7.0
 rpaframework-windows == 7.5.0
+#scikit-image == 0.22.0
+#matplotlib == 3.8.2
+#pandas == 2.2.0
+diffimg == 0.3.0

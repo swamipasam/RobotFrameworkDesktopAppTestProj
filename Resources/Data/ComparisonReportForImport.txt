@@ -1,0 +1,6 @@
+Comparison Report:
+
+File 1: C:\dev\git\RobotFrameworkDesktopAppTestProj\Resources\Data\IMAGE_1.png
+File 2: C:\dev\git\RobotFrameworkDesktopAppTestProj\Resources\Data\CapturedImage.png
+Hamming Distance: 0
+Images are identical.
